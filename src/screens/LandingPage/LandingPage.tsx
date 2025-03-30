@@ -139,37 +139,10 @@ export const LandingPage = (): JSX.Element => {
       <section className="relative mt-12">
         <AchievementsSection />
       </section>
-      {/* Pricing Section */}
-      <section className="w-full mt-16 relative">
-        <img className="w-[screen] h-[142px] relative top-2" alt="Vector" src="/vector-7825.svg" />
 
-        <div className="w-full bg-[#0f54fa] relative">
-          <img
-            className="absolute w-[189px] h-[357px] top-[-147px] left-0"
-            alt="Ellipse"
-            src="/ellipse-1509.svg"
-          />
-
-          <img
-            className="absolute w-[267px] h-[937px] top-[-61px] right-0"
-            alt="Ellipse"
-            src="/ellipse-1507.svg"
-          />
-
-          <PricingSection />
-        </div>
-
-        <img className="w-full h-[142px] relative bottom-2" alt="Vector" src="/vector-7828.svg" />
-
-        <img
-          className="absolute w-[492px] h-[315px] bottom-0 left-1/2 transform -translate-x-1/2"
-          alt="Ellipse"
-          src="/ellipse-1508.svg"
-        />
-      </section>
 
       {/* User Profile Section */}
-      <section className="w-full mt-16">
+      <section className="w-full mt-4">
         <UserProfileSection />
       </section>
 
